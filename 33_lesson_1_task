@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>32 Lesson</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="containter1">
+        <p>Ежик</p>
+        <div id="containter2">
+            <p class="animal">Лев</p>
+            <p>Носорог</p>
+        </div>
+        <p class="animal">Тигр</p>
+    </div>
+      
+
+
+    <style>
+        .animal{
+            color: red;
+            font-size: 30px;
+        }
+        #containter1{
+            color: blue;
+            font-size: 20px;
+        }
+        #containter2{
+            color: yellow;
+            font-size: 2em;
+        }
+
+
+    </style>
+</body>
+</html>
