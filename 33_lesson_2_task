@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>32 Lesson</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="one">
+        <div class="one">
+            <p>Алматы</p>
+            <p id="capital">Астана</p>
+        </div>
+        <div id="div3">
+            <p>Шымкент</p>
+        </div>
+    </div>
+    <style>
+        .one{
+            color: red;
+            font-size: 30px;
+        }
+        #capital{
+            color: blue;
+            font-size: 2em;
+        }
+        #div3{
+            font-size: 50px;
+        }
+
+
+    </style>
+</body>
+</html>
