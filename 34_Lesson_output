@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>34 Lesson</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <script>
+            console.log("Это консоль");
+            alert("Привет всплывающее окно");
+            document.write("Привет сайт");
+    </script>
+</body>
+</html>
