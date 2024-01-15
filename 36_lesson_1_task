@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>34 Lesson</title>
+</head>
+<body>
+     <div class="one">
+        <p class="one">Математика</p>
+        <p class="one" id = "two">Химия</p>
+        <b class="one">Физика</b>
+        <b>Информатика</b>
+     </div>
+     <style>
+        div{
+            color: red;
+            font-size: 30px;
+        }
+        .one{
+            color: green;
+            font-size: 2em;
+        }
+        #two{
+            color: aqua;
+            font-size: 50%;
+        }
+     </style>
+</body>
+</html>
