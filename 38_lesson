@@ -1,0 +1,31 @@
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "school";
+
+// Процедурный способ
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+// Объектно-ориентированный способ
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+$sql = "INSERT INTO таблица (столбец1, столбец2) VALUES (?, ?)";
+$stmt = mysqli_prepare($conn, $sql);
+mysqli_stmt_bind_param($stmt, "ss", $значение1, $значение2);
+
+// Заполнение параметров и выполнение запроса
+$значение1 = "значение1";
+$значение2 = "значение2";
+mysqli_stmt_execute($stmt);
+
+
+// Проверка, был ли отправлен POST-запрос
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Получение данных из input
+    $myInputValue = $_POST["myInput"];
+
+    // Далее можно использовать $myInputValue по своему усмотрению
+    echo "Значение из input: " . $myInputValue;
+}
+
+
