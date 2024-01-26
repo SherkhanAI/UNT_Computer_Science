@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>3 задание</title>
+</head>
+<body>
+    <nav id="nv">
+        <p class="txt">Алматы</p>
+        <div>
+            <p class="txt">Астана</p>
+            <p>Караганда</p>
+            <p class="txt">Шымкент</p>
+        </div>
+        <p>Семей</p>
+    </nav>
+    <style>
+        #nv{
+            color: red;
+            font-size: 2em;
+        }
+        .txt{
+            color: green;
+        }
+        p{
+            font-size: 30px;
+        }
+        div{
+            color: yellow;
+        }
+        </style>
+</body>
+</html>
