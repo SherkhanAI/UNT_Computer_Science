@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>3 задание</title>
+</head>
+<body>
+    <input id="res" value="1">
+    <button onclick="one()">1</button>
+    <button onclick="two()">2</button>
+    <button onclick="third()">3</button>
+    <script>
+        function one(){
+            x = document.getElementById("res").value;
+            x = parseInt(x);
+            x = x * 2;
+            document.getElementById("res").value = x;
+        }
+        function two(){
+            x = document.getElementById("res").value;
+            x = parseInt(x);
+            x = x + 7;
+            document.getElementById("res").value = x;
+        }
+        function third(){
+            x = document.getElementById("res").value;
+            x = parseInt(x);
+            x = x + 1;
+            document.getElementById("res").value = x;
+        }
+    </script>
+</body>
+</html>
