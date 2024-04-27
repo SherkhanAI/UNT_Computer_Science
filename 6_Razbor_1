@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Текст с CSS</title>
+    <style>
+        .styled-text {
+            color: #333333;
+            font-weight: bold;
+            background-color: #f8f8f8;
+            border: 2px solid #ff0000;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p class="styled-text">Это пример текста с примененными CSS свойствами.</p>
+</body>
+</html>
